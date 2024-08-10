@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(187, 223, 255);
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 200%;
+    margin-bottom: -1%;
+}
+
+h5{
+    text-align: center;
+}
+
+#contenedor {
+    padding: 2%;
+    border-radius: 2% / 4%;
+    background-color: rgb(188, 191, 244);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+#tablero {
+    border-radius: 2%/2.5%;
+    font-size: 150%;
+    margin: auto;
+    width: 65%;
+    background-color: white;
+    text-align: center;
+
+}
+
+#botones {
+    border-radius: 5%/3%;
+    background-color: rgb(113, 113, 230);
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+    padding-top: 4%;
+
+}
+
+button, select{
+    color: white;
+    box-shadow: 5px 8px 3px rgba(0, 0, 0, 0.402);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 150%;
+    background-color:  rgb(33, 14, 118);
+    border-radius: 6%/30%;
+    height: 12%;
+}
+
+option{
+    color:black;
+    background-color: white;
+}
+
+#ocultar{
+    color:rgb(250, 250, 250);
+}
+
+#instrucciones{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-shadow: 5px 8px 3px rgba(0, 0, 0, 0.402);
+    border-radius: 5%/7%;
+    padding: 5%;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+    height: 35%;
+}

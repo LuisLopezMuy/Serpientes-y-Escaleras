@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serpientes y Escaleras</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="body">
+    <h2 id=>- Serpientes y Escaleras -</h2>
+    <h5>- Luis López Muy -</h5>
+    <div id="contenedor">
+        <div id="tablero">
+            <p id="juego">d</p>
+        </div>
+        <div id="botones">
+            <div id="instrucciones"></div><br><br>
+            <button onclick="dado()">Tirar Dado</button><br>
+            <button onclick="reiniciar()">Reiniciar Juego</button><br>
+            <select id="tema" onchange="tema()">
+                <option value="" id="ocultar" disabled selected>Tema</option>
+                <option value="0">Claro</option>
+                <option value="1">Oscuro</option>
+            </select>
+
+        </div>
+    </div>
+
+    <script src="juego.js"></script>
+</body>
+
+</html>
